@@ -13,7 +13,7 @@ Immediately Invoked Function Expression, is a common JavaScript design pattern u
 
 4. Why do we write tests for our code?
 
-in order to understand if our code works, to de-bug it before we know it works
+in order to understand if our code works, to de-bug it before we know if it works.  It is composed of 'describing the code (what it's name is), it (defining what it does) and expecting (listing what we expect the outcome to be given certain inputs).
 
 5. What does it mean to clone a repo?
 
@@ -21,4 +21,4 @@ to capture it on the terminal, to copy it and give it a remote location on the t
 
 6. What is a higher order function? What is a callback?
 
-a higher order function is a function that calls upon another function (an anonymous function) and 
+a higher order function is a function that calls upon another function (an anonymous function) and it allows us to write "less repetitive code (DRY)" by being able to use "loop" that is called upon with parameters of a collection, and a function (anonymous).
