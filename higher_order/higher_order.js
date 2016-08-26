@@ -7,6 +7,28 @@ var loop = function(collection, callback) {
 };
 
 // write your talkToUser function here:
+var splitPrompts = funFacts.split;
+
+var talkToUser = function (prompts, promptType){
+	loop(prompts, function(promptType){
+		if (promptType === 'log') console.log ("[i + 1]." + prompts[i]);
+		if (promptType === 'alert') alert(prompts[i]);
+		if (promptType === 'prompt') prompt(prompts[i]);
+	})
+	
+}
+
+
+talkToUser(funFacts, 'log');
+
+
+//extraCredit:
+//the splitPrompts should break the array into 4 elements which are sentences:  funFacts[0] we want to write as a prompt funFacts[i] written as '1.' + funFacts[i+1];
+
+
+
+
+
 
 
 // Use this to test your talkToUser function:
